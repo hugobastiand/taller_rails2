@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: Tienda_development
+  database: Tienda_dev
   password: mipassword
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
